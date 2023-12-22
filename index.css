@@ -1,0 +1,144 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+
+}
+.header ul li{
+   padding: 8px 16px;
+   list-style-type: none;
+}
+.header ul li a{
+   text-decoration: none;
+ }
+ /* ====section ======= */
+.main-wrapper{
+    display: flex;
+
+}
+ .aside{
+   
+    flex: 1;
+    padding: 16px;
+ }
+ .right{
+    flex: 5;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ li{
+    list-style-type: none;
+ }
+ .aside ul li a{
+ padding: 12px;
+ display: block;
+ }
+ .aside ul li:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+   }
+   .aside ul{
+    border-bottom: 2px solid green;
+    padding: 8px 0px;
+    }
+
+    /* ====card===== */
+    .card-wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 10px 0px;
+    }
+    .card{
+    width: 22%;
+    margin: 10px 0px;
+    
+    }
+    .cardimg img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .avatar{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .avatar img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    .body{
+        display: flex;
+    }
+    .detail{
+        padding: 3px 3px;
+    }
+    .detail h3{
+        padding: 2px 0px;
+      
+        
+    }
+    .detail p{
+        padding: 2px 0px;
+   
+    }
+    /* ====card-section2===== */
+    .card-section2{
+        display: flex;
+        background-color: red;
+        height: 500px;
+    }
+   
+    /* ====header2 ===== */
+    .search{
+        width: 400px;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+         border: 0px;
+        outline: none;
+    }
+    .btn-wrapper{
+        outline: none;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border: 0px;
+        margin-left: 0px;
+    }
+    .icon{
+      font-size: 20px;
+    }
+    .parent-w{
+  border: 2px solid lightgray;
+  border-radius: 20px;
+  width: 400px;
+    }
+    .search:focus-visible{
+        outline: 0px;
+    }
+    .imgyoutube{
+        width: 70px;
+        margin-top: 3px;
+    }
+    .mike{
+       
+     
+        
+    }
+    .mike1{
+        background-color: lightgray;
+        height: 40px;
+        width: 40px;
+        border-radius: 40%
+    }
